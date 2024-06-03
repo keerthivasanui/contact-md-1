@@ -1,0 +1,123 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+ 
+  
+  }
+  h2{
+    color: rgb(249, 226, 195);
+  }
+
+
+nav a{
+  font-size: small;
+  color: rgb(249, 226, 195);
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.logo{
+  font-family: "Ubuntu", sans-serif;
+font-size: medium;
+  font-weight: bolder;
+}
+
+.menu-line{
+  height: 2px;
+  width: 25px;
+  margin: 5px;
+  background-color: antiquewhite;
+}
+.dropdown{
+  position: relative;
+  
+}
+ 
+.dropdown-options{
+  display: none;
+  position: absolute;
+  
+  left: 0;
+  div {
+    margin: 10px;
+  }
+}
+
+.dropdown:hover {
+  .dropdown-options{
+    display: block;
+  }
+  
+}
+.google{
+  background-size: contain;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png");
+}
+
+
+
+
+
+
+body{
+    background: url("/public/main-banner-3.jpg") ;
+    background-size: cover;
+
+   
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(241, 236, 236);
+}
+.regform{
+    width: 300px;
+    background: rgb(203,120,85);
+background: linear-gradient(0deg, rgba(203, 120, 85, 0.594) 0%, rgba(14,9,4,1) 100%);
+    margin-top: 100px;
+    margin-left: 800px;
+    margin-bottom: 150px;
+    border: dashed ;
+    font-size: 15px;
+    padding: 30px 30px 30px 30px ;
+    border-width: 2px 4px;
+    border-radius: 5px 40px;
+    box-shadow: 10px 15px 15px rgb(10, 2, 2);
+   
+}
+.regform h3{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .regform .textlabel{
+    display:block;
+  }
+
+  .input input{
+    width: 100%;
+    font-size: medium;
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 5px 10px ;
+    box-sizing: border-box;
+    margin: 5px 0px 20px 0px ;
+
+    }
+    
+    .btn {
+        margin: 20px 0px 20px 0px ;
+        
+      }
+
+    button {
+      
+      padding: 5px 10px;
+      border: none;
+      color: antiquewhite;
+      border-radius: 5px;
+      background-color: rgb(63, 12, 3);
+    }
